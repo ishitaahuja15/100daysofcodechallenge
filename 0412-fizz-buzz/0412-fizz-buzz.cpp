@@ -14,8 +14,7 @@ public:
                 v.push_back("Buzz");
             }
             else{
-                string a = to_string(i) ;
-                v.push_back(a);
+                v.push_back(to_string(i));
             }
         }
         return v;
