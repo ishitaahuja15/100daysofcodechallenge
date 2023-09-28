@@ -6,9 +6,7 @@ public:
             if(nums[i]%2==0){
                 vec.push_back(nums[i]);
             }
-            else{
-                continue;
-            }
+            
         }
         for(int i =0;i<nums.size();i++){
             if(nums[i]%2!=0){
