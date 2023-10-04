@@ -2,14 +2,13 @@ class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
         
-        vector <int> vec;
+        int index =0;
         for(int i =0; i<nums.size();i++){
             if(nums[i]!=val){
-                vec.push_back(nums[i]);
-                
+                nums[index]=nums[i];
+                index++;
             }
         }
-        nums = vec;
-        return vec.size();
+        return index;
     }
 };
