@@ -25,8 +25,5 @@ public:
         for(int k =one+zero; k<zero+one+two; k++){
             nums.push_back(2);
         }
-
-        
-        
     }
 };
